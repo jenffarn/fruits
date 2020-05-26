@@ -1,4 +1,4 @@
-var fruits = ["apples", "oranges", "bananas"];
+var fruits = ["apples", "oranges", "bananas", "jackfruits"];
 console.log(fruits);
 
 fruits.splice(0,1);
@@ -13,9 +13,19 @@ fruits.reverse();
 console.log("reverse the order.");
 console.log(fruits);
 
+var fruitsCount = fruits.length;
+console.log("number of fruits: " + fruitsCount.toString());
+
+for (var i = 0; i < 5; i = i + 1) {
+    console.log(fruits[i]);
+}
+
 fruits.sort();
 console.log("sort in alphabetical order.");
 console.log(fruits);
 
-var fruitsCount = fruits.length;
-console.log("number of fruits: " + fruitsCount.toString());
+var j = 0;
+while (j < 5) {
+    console.log(fruits[j]);
+    j = j + 1;
+}
