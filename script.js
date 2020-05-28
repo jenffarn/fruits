@@ -16,7 +16,7 @@ console.log(fruits);
 var fruitsCount = fruits.length;
 console.log("number of fruits: " + fruitsCount.toString());
 
-for (var i = 0; i < 5; i = i + 1) {
+for (var i = 0; i < fruits.length; i = i + 1) {
     console.log(fruits[i]);
 }
 
@@ -25,7 +25,7 @@ console.log("sort in alphabetical order.");
 console.log(fruits);
 
 var j = 0;
-while (j < 5) {
+while (j < fruits.length) {
     console.log(fruits[j]);
     j = j + 1;
 }
